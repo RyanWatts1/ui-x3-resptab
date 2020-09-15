@@ -17,7 +17,7 @@ class App extends React.Component {
       <div className="App mt-4">
         <TabNav tabs={['Home', 'Settings', 'Profile']} selected={ this.state.selected } setSelected={ this.setSelected }>
           <Tab isSelected={ this.state.selected === 'Home' }>
-            <p>Some test text</p>
+            <p> Ad cillum labore labore commodo eu aliqua proident pariatur ea fugiat laborum fugiat. Et ad fugiat pariatur proident consequat quis cillum ipsum laboris. Eiusmod ipsum aliquip enim cillum deserunt reprehenderit dolor ad magna. </p>
           </Tab>
           <Tab isSelected={ this.state.selected === 'Settings' }>
             <h1>More test text</h1>
